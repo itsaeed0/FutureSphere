@@ -205,5 +205,12 @@
     font-size: medium;
 }
 .article-article{
-    color: #3d3d3d;
+    color: rgba(61, 61, 61, 0.78);
+}
+
+.article-link{
+    color: rgba(61, 61, 61, 0.78);
+    margin: 30px 0 0px auto;
+    border-bottom: solid 2px;
+    width: fit-content;
 }
