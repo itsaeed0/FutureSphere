@@ -220,12 +220,14 @@
 .mobile {
   display: none;
 }
-.btn {
+.btn__contact {
   width: 137px;
   height: 35px;
   border-radius: 20px;
   padding: 8px 30px;
   background-color: #7f56d9;
+  color: white;
+  text-decoration: none;
 }
 .email-background {
   display: flex;
@@ -279,18 +281,41 @@ border: none;
 }
 .last-main {
  background: #7F56D9;
- width: 320px;
  height: 196px;
  display: flex;
  margin: 40px auto 0;
+ flex-direction: column;
+ align-items: center;
 }
+.last-main__hr1 {
+  border: 1px solid #FFFFFF80;
+  width: 90%;
+  margin: 79px auto 0;
+}
+
 .last-one {
- display: flex;
- 
+  display: flex;
+  color: #fff;
 }
-.last-one__logo {}
-.last-one__title {}
+.last-one__box {
+  display: flex;
+  margin-top: 10px;
+}
+.last-one__logo {
+  width: 27.25px;
+  height: 24px;
+}
+.last-one__title {
+  width: 140px;
+  height: 24px;
+}
 .last-one__item {}
-.last-one__list {}
+.last-one__list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style-type: none;
+  margin-top: 40px;
+}
 .last-one__cell {
 }
